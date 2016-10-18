@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Steering Behaviors</title>
+	<!-- My Styles -->
+	<link rel='stylesheet' type='text/css' href='css/reset.css'/>
+	<link rel='stylesheet' type='text/css' href='css/style.css'/>
+        
+	<!-- Jquery -->
+    <!-- http://www.http://www.jquery.com/ -->
+	<script type='text/javascript' src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
+    <!-- pixi.js -->
+    <!-- http://www.pixijs.com/ -->
+	<script src="libs/pixi.min.js"></script>
+    <!-- victor.js -->
+    <!-- http://victorjs.org/ -->
+	<script src="libs/victor.js"></script>
+    
+    <!-- My Scripts -->
+	<script type='text/javascript' src='./js/main.js'></script>
+	<script type='text/javascript' src='./js/Vehicle.js'></script>
+	<script type='text/javascript' src='./js/Leader.js'></script>
+	<script type='text/javascript' src='./js/Flocker.js'></script>
+</head>
+<body>
+    <div id='input-container'>
+        <label class="forward"><input type="checkbox" id='draw-forward'/> Draw forward</label>
+        <label class="velocity"><input type="checkbox" id='draw-velocity'/> Draw velocity</label>
+        <label class="acceleration"><input type="checkbox" id='draw-acceleration'/> Draw acceleration</label>
+        <label class="wander"><input type="checkbox" id='draw-wander'/> Draw wander</label>
+        <label class="stay-in-bounds"><input type="checkbox" id='draw-stay-in-bounds'/> Draw stay in bounds</label>
+        <label class="separate"><input type="checkbox" id='draw-separate'/> Draw separate</label>
+        <label class="follow"><input type="checkbox" id='draw-follow'/> Draw follow</label>
+        <label class="clear"><input type="checkbox" id='draw-clear'/> Draw clear path</label>
+    </div>
+    <div id='canvas-container'></div>
+</body>
+</html>
